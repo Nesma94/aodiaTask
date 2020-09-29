@@ -1,0 +1,43 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+.list-group {
+  list-style-type: none;
+  position: relative;
+  border: 1px dashed #ddd;
+  border-radius: 0 !important;
+}
+
+.list-group-item {
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.list-group-item:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.badge-pill {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  transform: translateY(-50%);
+}
+
+.fa-times {
+  font-size: 1.2em;
+}
+
+.ui-sortable-helper {
+  transform: skewY(1.2deg);
+}
+
+.list-group-item-info {
+  background-color: rgba(61, 197, 223, 0.5);
+}
+
+.list-group-item-dark {
+  background-color: rgba(39, 39, 39, 0.8);
+  color: #fff;
+}
